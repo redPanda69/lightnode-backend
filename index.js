@@ -14,7 +14,7 @@ const contract = new web3.eth.Contract(abi,"0x6F26B417f2622eD65A964b37Db81599884
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Vyshnavp",
+  password: "",
   database: "lightnode"
 });
 
