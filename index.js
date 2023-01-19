@@ -13,10 +13,11 @@ const {deposit} = require("./requisites/web3.js")
 
 // Database Connection...
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "Vyshnavp",
-  database: "lightnode"
+  host: "lightnode-do-user-9480719-0.b.db.ondigitalocean.com",
+  user: "doadmin",
+  port:25060,
+  password: process.env.MYSQL_PASSWORD,
+  database: "txhistory"
 });
 
 
